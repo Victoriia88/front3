@@ -111,8 +111,9 @@ let firstNum = 1;
 while (firstNum <= 10) {
   let secondNum = 1;
   while (secondNum <= 10) {
-    console.log(`${firstNum} x ${secondNum} = ${firstNum*secondNum}`);
+    console.log(`${firstNum} * ${secondNum} = ${firstNum*secondNum}`);
     secondNum++;
   }
   firstNum++;
 }
+
